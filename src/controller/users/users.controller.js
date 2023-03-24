@@ -1,4 +1,3 @@
-const { sequelize } = require("../../connection");
 const { UserModel } = require("../../model/users.model");
 const UserService = require("../../service/users.service");
 
