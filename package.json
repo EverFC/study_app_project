@@ -1,5 +1,5 @@
 {
-  "name": "study-app",
+  "name": "study_app_proyect",
   "version": "1.0.0",
   "description": "Organizacion para contenidos de estudios por topicos",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "contenido",
     "semestres"
   ],
-  "author": "Flavio Wiler Fernandez Dos Santos",
+  "author": "Ever Fernandez Cantero",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
