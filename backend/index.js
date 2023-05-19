@@ -10,7 +10,9 @@ app.use(cors({
 }));
 
 const userRoute = require("./src/route/users/users.route");
- 
+const themeRoute = require("./src/route/themes/themes.route");
+const topicRoute = require("./src/route/topics/topics.route");
+const themesPropertiesRoute = require("./src/route/themes_properties/themes_properties.route");
 //Ruta raiz
 app.get('/', function (req, res) {
     //Logica.
@@ -26,5 +28,8 @@ app.get('/pagina2', function (req, res) {
 
 //Llamadas a los routes de los UCs
 userRoute(app);
+themeRoute(app);
+topicRoute(app);
+themesPropertiesRoute(app);
 
 app.listen(3000);
