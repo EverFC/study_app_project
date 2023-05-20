@@ -5,7 +5,7 @@ const auth = async function (req, res, next){
  if(!req.headers.authorization){
     res.json({
         success: false,
-        error: "No autorizado el header"
+        error: "No Authorization header"
     });
  }else{
     let token = req.headers.authorization;
@@ -28,4 +28,4 @@ const auth = async function (req, res, next){
  }
 };
 
-module.exports = {auth}; 
+module.exports = {auth};
